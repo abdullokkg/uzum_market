@@ -17,26 +17,26 @@ const Hero = () => {
           <ul className="hero_item">
             <li className="item0"><CiLocationOn /></li>
             <li className="item">{t("country")}:</li>
-            <li className="item"><a href="https://maps.app.goo.gl/r7tpx7RRWaJoEqi69">Ташкент</a></li>
+            <li className="item"><a href="https://maps.app.goo.gl/r7tpx7RRWaJoEqi69">{t("tashkent")}</a></li>
           </ul>
           <ul className="hero_item">
-            <li className="item">{t("tashkent")}</li>
-          </ul>
-        </ul>
-        <ul className="hero_items">
-          <ul className="hero_item">
-            <li className="item1">{t("Pickup_points")}</li>
+            <li className="item">{t("Pickup_points")}</li>
           </ul>
         </ul>
         <ul className="hero_items">
           <ul className="hero_item">
-            <li className="item2">{t("txt1")}</li>
+            <li className="item1">{t("txt1")}</li>
           </ul>
+        </ul>
+        <ul className="hero_items">
           <ul className="hero_item">
-            <li className="item">{t("txt2")}</li>
+            <li className="item2">{t("txt2")}</li>
           </ul>
           <ul className="hero_item">
             <li className="item">{t("txt3")}</li>
+          </ul>
+          <ul className="hero_item">
+            <li className="item">{t("txt4")}</li>
           </ul>
           <ul className="hero_item">
             <select value={lang} onChange={e => setLang(e.target.value)}>
